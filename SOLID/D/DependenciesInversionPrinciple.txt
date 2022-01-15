@@ -1,0 +1,3 @@
+Dependency Inversion Principle
+
+Les modules de haut niveaux ne doivent pas dépendre de modules bas niveaux, mais d'abstractions.

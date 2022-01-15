@@ -1,0 +1,3 @@
+Single responsability principal
+
+Une classe doit avoir une seule raison de changer, cela veut dire que la classe doit avoir un seul objectif.

@@ -1,0 +1,4 @@
+Liskov Substitution Principle
+
+Une classe ne devrait jamais être forcée d'implémenter une interface qu'elle n'utilise pas 
+ou une classe ne devraient pas être forcée de dépendre à méthodes qu'elle n'utilise pas.

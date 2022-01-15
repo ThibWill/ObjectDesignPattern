@@ -1,0 +1,3 @@
+Open Closed principal
+
+Une classe devrait être ouverte à l'extension, mais pas la modification.

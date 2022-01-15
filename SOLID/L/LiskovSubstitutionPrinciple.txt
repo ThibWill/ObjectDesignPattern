@@ -1,0 +1,3 @@
+Liskov Substitution Principle
+
+Chaque classe dérivée devrait être substitutable pour leur base ou leur classe parent.
