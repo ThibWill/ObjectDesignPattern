@@ -2,7 +2,7 @@
 
 ## Le problème
 
-Voir problem.md
+Voir problem.ts
 
 ## Le patron de conception
 
