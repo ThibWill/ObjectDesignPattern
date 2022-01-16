@@ -6,10 +6,6 @@ class AreaCalculator
         this.shapes = shapes;
     }
 
-    /**
-     * Fonction générique qui marchera même si on rajoute un nouveau type de forme
-     * @returns 
-     */
     public sum(): number
     {
         return this.shapes
