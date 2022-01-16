@@ -2,10 +2,13 @@ interface IProduct {
     name: string
 }
 
+
+// 1 Abtraction
 class ConcreteProduct implements IProduct {
     name = ''
 }
 
+// 2 création de classes implémentant l'abstractions
 class ConcreteProductA extends ConcreteProduct {
     constructor() {
         super()
@@ -27,6 +30,7 @@ class ConcreteProductC extends ConcreteProduct {
     }
 }
 
+// 3. Création de la factory
 class Factory {
     static createObject(someProperty: string): IProduct {
         if (someProperty === 'a') {
@@ -58,7 +62,7 @@ interface IChair {
     getDimensions(): dimension
 }
 
-export default class Chair implements IChair {
+class Chair implements IChair {
     height = 0
     width = 0
     depth = 0
@@ -71,8 +75,8 @@ export default class Chair implements IChair {
         }
     }
 }
-class
- ChairFactory {
+
+class ChairFactory {
     static getChair(chair: string): IChair {
         if (chair == 'BigChair') {
             return new BigChair()
@@ -83,8 +87,6 @@ class
         }
     }
 }
-
-
 
 class SmallChair extends Chair {
     constructor() {
